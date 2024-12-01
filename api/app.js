@@ -1,10 +1,19 @@
 import express from "express";
+import cookieParser from "cookie-parser";
 import authRoute from "./routes/auth.route.js";
 import postRoute from "./routes/post.route.js";
 
 const app = express();
 
+// Set Content Security Policy
+app.use((req, res, next) => {
+    res.setHeader("Content-Security-Policy", "default-src 'self'; img-src 'self' http://localhost:8800;"); // Adjust as needed
+    next();
+});
+
+
 app.use(express.json());
+app.use(cookieParser());
 
 app.use("/api/posts",postRoute);
 app.use("/api/auth", authRoute);
