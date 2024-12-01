@@ -1,5 +1,0 @@
-need a library--for free map
-
-https://react-leaflet.js.org/
-
-npm install react-leaflet leaflet
