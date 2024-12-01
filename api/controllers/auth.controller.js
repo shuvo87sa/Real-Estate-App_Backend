@@ -84,7 +84,7 @@ export const login = async (req,res)=>{
         httpOnly:true,
         // secure:true
         maxAge: age,
-    })
+    }) 
     .status(200)
     .json({ message: "Login Sucessful" });
     }catch(err){
