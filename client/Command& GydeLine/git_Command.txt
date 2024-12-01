@@ -1,0 +1,39 @@
+Git  Code Add----
+git add index.html
+git status
+git add .   --Add all file at a time
+git commit -m "just test"
+git push origin main
+
+git pull    --- for update 
+
+new directory made---
+mkdir LocalRepo
+....................start.................
+
+git --version
+
+Configuring Git------
+git config --global user.name "shuvo87sa"
+git config --global user.email "sabbirnew2023@gmail.com"
+git config --list
+
+Clone & Status------
+git clone https://github.com/shuvo87sa/Real-Estate-App.git
+
+
+Chang directory-----
+cd folder name
+cd ..    ----dile folder er bahire cole asbe!
+ls  --show list of all file
+
+
+Git Check--------
+git status
+
+Git  Code Add----
+git add index.html
+git status
+git add .   --Add all file at a time
+git commit -m "just test"
+git push origin main
