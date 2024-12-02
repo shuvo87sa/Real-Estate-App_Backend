@@ -29,3 +29,7 @@ netstat -ano | findstr :8800  --pc terinal and check the PID
 taskkill /PID 24284 /F          -- 24283 exmple.difetn pc will difernt pid
 tasklist | findstr 24284
 console-ninja node --watch app.js
+
+
+----------------------------------------------------------------------------------
+npm i axios  (preinstall before)

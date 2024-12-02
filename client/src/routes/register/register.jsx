@@ -5,10 +5,10 @@ import { useState } from "react";
 import apiRequest from "../../lib/apiRequest";
 
 function Register() {
-  const [error, setError] = useState("");
+  const [error, setError ] = useState("");
   const [isLoading, setIsLoading] = useState(false);
 
-  const navigate = useNavigate();
+  const navigate = useNavigate(); 
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -34,6 +34,7 @@ function Register() {
       setIsLoading(false);
     }
   };
+
   return (
     <div className="registerPage">
       <div className="formContainer">
